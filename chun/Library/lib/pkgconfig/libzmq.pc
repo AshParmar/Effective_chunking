@@ -1,0 +1,12 @@
+prefix=c:/Users/ashpa/OneDrive/Desktop/Chunking_In_RAG/chun/Library
+exec_prefix=c:/Users/ashpa/OneDrive/Desktop/Chunking_In_RAG/chun/Library
+libdir=c:/Users/ashpa/OneDrive/Desktop/Chunking_In_RAG/chun/Library/lib
+includedir=c:/Users/ashpa/OneDrive/Desktop/Chunking_In_RAG/chun/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 

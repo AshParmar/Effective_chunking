@@ -1,0 +1,17 @@
+Input–Output and Interrupt
+ Example:
+ Fig. 1.12 Flowchart for interrupt cycle. Dr. Amarendra Kumar Mishra VIPS-TC Dept. Electronics Engineering    Intro.. to COA.
+ • The branch instruction at address 1 causes the program 
+to transfer to the input–output service program at 
+address 1120.
+ • This program checks the flags, determines which flag is 
+set, and then transfers the required input or output 
+information. Once this is done, the instruction ION is 
+executed to set IEN to 1 (to enable further interrupts), 
+and the program returns to the location where it was 
+interrupted.
+ • The instruction that returns the computer to the original 
+place in the main program is a branch indirect 
+instruction with an address part of 0. 
+• This instruction is placed at the end of the I/O service 
+program.
